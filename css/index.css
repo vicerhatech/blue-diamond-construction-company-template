@@ -87,6 +87,10 @@ nav .nav-link {
   text-align: center;
   padding: 0 20px;
   overflow: hidden;
+  background-image: url('../images/homepage-construction-site.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .intro-details {
@@ -97,7 +101,7 @@ nav .nav-link {
 .intro-slide {
   font-size: 3rem;
   font-weight: bold;
-  color: #fff;
+  color: black;
   opacity: 0;
   transform: translateY(-50px);
   animation: slideDown 1s ease forwards;
@@ -111,7 +115,7 @@ nav .nav-link {
 /* Second Text - Typewriter */
 .intro-typewriter {
   margin-top: 20px;
-  color: #fff;
+  color: black;
   font-size: 1.5rem;
   white-space: nowrap;
   overflow: hidden;
